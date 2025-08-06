@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "mera_font1";
+    src: url(fonts/EagleHorizonP.ttf);
+}
+@font-face {
+    font-family: "mera_font2";
+    src: url(fonts/RollboxBold.ttf);
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-family: "mera_font1", sans-serif;
+}
+h2{
+    color: red;
+    text-align: center;
+    font-family: "mera_font2", sans-serif;
+}
+#dot_batch_img{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
