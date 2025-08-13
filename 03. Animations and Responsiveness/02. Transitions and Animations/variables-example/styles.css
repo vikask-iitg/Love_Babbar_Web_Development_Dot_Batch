@@ -1,0 +1,22 @@
+:root{
+    --dark-blue:#00008B;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+
+    background-color: yellow;
+    border: 1px solid #000;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.box{
+    height: 100px;
+    width: 400px;
+    --dark-blue:#00008B;
+    background-color: var(--dark-blue);
+    border: 1px solid #000;
+    color: white;
+}

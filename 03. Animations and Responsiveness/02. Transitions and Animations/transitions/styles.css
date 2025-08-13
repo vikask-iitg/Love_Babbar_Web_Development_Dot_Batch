@@ -1,0 +1,26 @@
+.container {
+    width: 700px;
+    height: 700px;
+    background-color: yellow;
+    border: 1px solid #000;
+    display: grid;
+    place-content: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid #000;
+
+    transition: transform 1s ease;
+    transition: transform 2s cubic-bezier(0.85,-0.3, 0.11, 1.08),
+        background-color 0.5s linear,
+        opacity 0.3s ease-in 2s;
+}
+
+.box:hover {
+    background-color: red;
+    transform: rotate(360deg);
+    opacity: 0.5;
+}
