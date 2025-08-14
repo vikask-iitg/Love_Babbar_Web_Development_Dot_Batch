@@ -10,7 +10,7 @@
 }
 
 .container {
-    height: 100vh;
+    height: 100%;
     width: 1200px;
     /* background-color: yellow; */
     border: 1px solid #000;
@@ -42,6 +42,7 @@
     grid-area: content;
     display: grid;
     margin: 20px;
+    /* height: 100%; */
 
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -88,4 +89,3 @@
 .blog-title a {
     text-decoration: none;
 }
-

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+}
+
+.container {
+    height: 100vh;
+    width: 1200px;
+    /* background-color: yellow; */
+    /* border: 1px solid #000; */
+
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 900px 300px;
+    grid-template-areas:
+        "hd hd"
+        "content side";
+
+}
+
+.box {
+    /* border: 1px solid #000; */
+}
+
+#header {
+    grid-area: hd;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content {
+    grid-area: content;
+    /* border: 1px solid #000; */
+    display: grid;
+}
+
+#sidebar {
+    grid-area: side;
+    /* border: 1px solid #000; */
+}
+
+#search-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+#sub {
+    margin-left: 20px;
+}
+
+#blog-title {
+    text-decoration-line: underline;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+
+ul li {
+    margin-left: 2rem;
+}
+
+ol li {
+    margin-left: 2rem;
+}
+
+p#para-border-1 {
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+p#para-border-2 {
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+div.more-post {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    bd
+}
+
+div p.post a {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#sidebar-container {
+    /* border: 1px solid #000; */
+    /* background-color: violet; */
+    padding: 10px;
+    display: grid;
+    align-content: start;
+    row-gap: 10px;
+}
+
+.about {
+    /* border: 1px solid #000; */
+    padding: 5px;
+    background-color: rgb(233, 232, 232);
+}
+.about h3{
+    font-style: italic;
+}
+
+.archives {
+    /* border: 1px solid #000; */
+    padding: 5px;
+}
+
+.archives h3{
+    font-style: italic;
+}
+
+.archives ul{
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+.archives ul li{
+    margin-left: 0px;
+}
+
+.elsewhere {
+    /* border: 1px solid #000; */
+    padding: 5px;
+}
+
+.elsewhere h3{
+    font-style: italic;
+}
