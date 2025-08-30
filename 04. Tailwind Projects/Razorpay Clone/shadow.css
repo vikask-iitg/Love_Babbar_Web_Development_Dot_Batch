@@ -1,0 +1,10 @@
+.border-shadow{
+    position: relative;
+    display: inline-block;
+}
+
+.border-shadow:hover{
+    display: inline-block;
+    box-shadow:0 0 25px 5px lightgray;
+    border-radius: 8px;
+}
