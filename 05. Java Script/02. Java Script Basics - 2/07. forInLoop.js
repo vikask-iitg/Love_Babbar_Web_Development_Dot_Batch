@@ -4,7 +4,7 @@
 
 // Object with nested object
 const Employee = {
-    myName: "NameOfEmployee",
+    myName: "Alpha",
     age: 15,
 
     address: {
