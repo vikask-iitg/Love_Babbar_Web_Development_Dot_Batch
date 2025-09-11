@@ -16,7 +16,7 @@ const maxSpeed = {
 // Object.fromEntries() → converts sorted entries back into object
 
 const sortable = Object.fromEntries(
-    Object.entries(maxSpeed).sort(([ , a ], [ , b ]) => a - b)
+    Object.entries(maxSpeed).sort(([, a], [, b]) => a - b)
 );
 
 console.log("Object sorted by speed:", sortable);
