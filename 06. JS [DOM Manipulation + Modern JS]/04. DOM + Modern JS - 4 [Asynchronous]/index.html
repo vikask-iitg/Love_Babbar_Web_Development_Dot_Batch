@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM + Modern JS - 3 [Event Loop]</title>
+    <style>
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        .box {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="main-title">DOM + Modern JS Playground</h1>
+
+    <p id="intro">This is a <span class="highlight">demo paragraph.
+    </p>
+
+    <div id="container1">
+        <ul id="list1">
+            <li class="item">UL-Item 1</li>
+            <li class="item">UL-Item 2</li>
+            <li class="item">UL-Item 3</li>
+            <li class="item" style="display:none">This is Hidden</li>
+        </ul>
+    </div>
+
+    <div id="container2">
+        <ol id="list2">
+            <li class="item">OL-Item 1</li>
+            <li class="item">OL-Item 1</li>
+            <li class="item">OL-Item 1</li>
+            <li class="item" style="display:none">This is Hidden</li>
+        </ol>
+    </div>
+
+
+    <div class="box" id="box1">Box 1</div>
+    <div class="box" id="box2">Box 2</div>
+    <div class="box" id="box3">Box 3</div>
+
+    <br>
+
+    <button id="btn">Click Here</button>
+    <!-- <button id="removeBtn">Remove Listener</button> -->
+
+    <h2 class="form-section" id="form-section">Form Section</h2>
+    <form>
+        <input type="text" name="username" placeholder="Enter username"><br><br>
+        <input type="password" name="password" placeholder="Enter password"><br><br>
+
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+    </form>
+
+    <br>
+
+    <a href="https://www.codehelp.in" target="_blank" id="link">
+        <button>Go to CodeHelp</button>
+    </a>
+
+
+    <!-- Scripts -->
+    <script src="25. hw5_PATCH.js"></script>
+</body>
+
+</html>
