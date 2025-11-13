@@ -1,0 +1,3 @@
+My API - 3abe43e86df6dcb0e9dd693104b44afe
+
+API Link - https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=3abe43e86df6dcb0e9dd693104b44afe
