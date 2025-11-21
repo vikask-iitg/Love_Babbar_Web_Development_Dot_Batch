@@ -4,27 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Exercise 3</title>
+    <title>Form Validation</title>
+
     <style>
-        #hoverButton {
-            margin: 0;
-            background: yellow;
-            padding: 20px;
-            display: inline-block;
+        /* Styling for invalid inputs */
+        .invalid {
+            border: 2px solid red;
+            background-color: #ffe6e6;
         }
-        .active {
-            background: red;
-            color: white;
+
+        /* Styling for message box */
+        #message {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .error {
+            color: red;
         }
     </style>
 </head>
 
 <body>
-    <div>JS Exercise 3</div>
-    <button id="button">Click Me</button>
-    <div id="hoverButton">Mouse Over Here!</div>
+
+    <h2>Simple Form Validation</h2>
+    <form id="myForm">
+        <label for="name">Name (Required)</label>
+        <input type="text" name="name" id="name" required>
+
+        <br><br>
+
+        <label for="email">Email (Required)</label>
+        <input type="email" name="email" id="email" required>
+
+        <br><br>
+
+        <label for="email">Age</label>
+        <input type="number" name="age" id="age">
+
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+    <div id="message"></div>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
