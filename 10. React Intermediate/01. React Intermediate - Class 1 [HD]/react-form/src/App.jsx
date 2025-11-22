@@ -45,8 +45,7 @@ function App() {
           onChange={changeHandler}
           value={formData.firstName}></input>
 
-        <br />
-        <br />
+        <br /><br />
 
         <label htmlFor='lastName'>Last Name </label>
         <input
@@ -56,8 +55,7 @@ function App() {
           onChange={changeHandler}
           value={formData.lastName}></input>
 
-        <br />
-        <br />
+        <br /><br />
 
         <label htmlFor='email'>Email </label>
         <input
@@ -67,8 +65,7 @@ function App() {
           onChange={changeHandler}
           value={formData.email}></input>
 
-        <br />
-        <br />
+        <br /><br />
 
         <label htmlFor='textArea'>Comment </label>
         <textarea
@@ -78,9 +75,8 @@ function App() {
           value={formData.comment}>
         </textarea>
 
-        <br />
-        <br />
-        
+        <br /><br />
+
         <label htmlFor='isVisible'>Am I Visible?</label>
         <input
           type='checkbox'
@@ -90,8 +86,7 @@ function App() {
           checked={formData.isVisible}>
         </input>
 
-        <br />
-        <br />
+        <br /><br />
 
         <fieldset>
           <legend>Mode: </legend>
@@ -116,8 +111,7 @@ function App() {
           </input>
         </fieldset>
 
-        <br />
-        <br />
+        <br /><br />
 
         <label htmlFor='favCar'>Tell me your faviour car </label>
         <select
@@ -133,8 +127,7 @@ function App() {
           <option value="Seltos">Seltos</option>
         </select>
 
-        <br />
-        <br />
+        <br /><br />
 
         <button>Submit</button>
 
