@@ -25,7 +25,7 @@ export const Random = () => {
           (<img src={gif} width="450"></img>)
       }
       <button onClick={clickHandler}
-        className='w-9/12 bg-yellow-500 text-lg py-2 rounded-lg font-bold cursor-pointer mb-[20px]'>
+        className='w-9/12 bg-yellow-500 text-lg py-2 rounded-lg font-bold cursor-pointer mb-5'>
         Generate
       </button>
     </div>
