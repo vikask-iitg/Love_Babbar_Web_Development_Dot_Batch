@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <div className='bg-slate-900 fixed w-full'>
+      <div className='bg-slate-900 fixed w-full z-20'>
         <Navbar />
       </div>
       <div className='py-20'>
