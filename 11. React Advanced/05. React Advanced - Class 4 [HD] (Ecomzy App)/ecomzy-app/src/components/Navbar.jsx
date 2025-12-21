@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
-  const {cart} = useSelector((state) => state)
+  const { cart } = useSelector((state) => state)
 
   return (
     <div>
@@ -22,14 +22,14 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/cart">
             <div className="relative">
-              <FaShoppingCart className="text-"/>
+              <FaShoppingCart className="text-" />
               {
-                cart.length > 0 && 
+                cart.length > 0 &&
                 <span
-                className="absolute -top-1 -right-2 bg-green-600 text-xs w-5 h-5 flex justify-center items-center animate-bounce rounded-full text-white"
+                  className="absolute -top-1 -right-2 bg-green-600 text-xs w-5 h-5 flex justify-center items-center animate-bounce rounded-full text-white"
                 >{cart.length}</span>
               }
-              
+
             </div>
           </NavLink>
 

@@ -11,10 +11,9 @@ import { ToastContainer } from 'react-toastify'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    
-      <Provider store={store}>
-        <App />
-        <ToastContainer/>
-      </Provider>
+    <Provider store={store}>
+      <App />
+      <ToastContainer />
+    </Provider>
   </BrowserRouter>
 )

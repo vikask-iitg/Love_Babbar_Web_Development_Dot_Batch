@@ -5,6 +5,5 @@ export const Spinner = () => {
     <div>
       <div className="spinner"></div>
     </div>
-
   )
 }
